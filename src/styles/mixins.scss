@@ -1,0 +1,6 @@
+@mixin reset-link-color($color) {
+  color: $color!important;
+  &:link, &:visited, &:hover {
+    color: $color!important;
+  }
+}
